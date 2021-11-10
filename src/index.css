@@ -5,9 +5,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+   background-image: url("https://scitechdaily.com/images/Universe-Energy-Concept.gif");  
+   color:orange;
+   background-repeat: no-repeat;
+   background-size: 107%;
+  
+  }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+.Footer {
+  display:inline-flex;
+  margin:33.3% 0 0 0;
+  
+  
+
+  
+}
+
+
+.Footer ul h3 {
+  border: 0.1em dashed orange;
+  border-radius: 1.7em;
+  text-decoration: none;
+  list-style: none;
+  
+  
+  /* padding:100px 100px; */
+}
+
+li {
+  border: 0.1em dashed orange;
+  border-radius: 1.7em;
+  text-decoration: none;
+  list-style: none;
+  display:inline-flex;
+  color:orange;
+  
+
+  /* padding:100px 100px; */
+}
+
+li a {
+  border: 0.05em solid green;
+  font-size:1.4em;
+  border-radius: 1.1em;
+  text-decoration: none;
+  list-style: none;
+  display:inline-flex;
+  color:white;
+  
+
+  /* padding:100px 100px; */
+}
+
+h3{
+  color:white;
 }
