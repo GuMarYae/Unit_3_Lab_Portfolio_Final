@@ -46,13 +46,12 @@ code {
 }
 .Footer {
   width: 10%;
-  color: black; 
-/* 🔥🔥🔥🔥🔥🔥🔥fiiiiire 🔥🔥🔥🔥🔥🔥🔥🔥 */
+  color: black;
+  /* 🔥🔥🔥🔥🔥🔥🔥fiiiiire 🔥🔥🔥🔥🔥🔥🔥🔥 */
   position: absolute;
-  top:34%;
-/* 🔥🔥🔥🔥🔥🔥🔥fiiiiire 🔥🔥🔥🔥🔥🔥🔥🔥 */
+  top: 34%;
+  /* 🔥🔥🔥🔥🔥🔥🔥fiiiiire 🔥🔥🔥🔥🔥🔥🔥🔥 */
 }
-
 
 .Footer ul h3 {
   display: inline-block;
@@ -76,7 +75,7 @@ li {
   list-style: none;
   color: darkgoldenrod;
   width: 100%;
-  margin-top:10px;
+  margin-top: 10px;
 
   /* padding:100px 100px; */
 }
@@ -98,14 +97,13 @@ h3 {
 }
 
 .Projects {
-  margin:11% auto;
+  margin: 11% auto;
   width: 55%;
-  display:block;
-  
+  display: block;
 }
 .Projects img {
   /* height:50%; */
- 
+
   margin: 0 auto;
   width: 74%;
   border: 0.02em solid red;
@@ -117,12 +115,12 @@ h3 {
   margin: 0 auto;
 }
 
-
 .Home img {
-  width:34%;
-  height:34%;
-  border:0.2em solid gray;
-  border-radius: 21em;
-  opacity:.9;
+  margin-top: 5%;
+  width: 34%;
+  height: 34%;
+  border: 0.2em solid gray;
+  border-radius: 12em;
+  opacity: 0.9;
   box-shadow: 7px 7px 7px darkgray;
 }
