@@ -116,3 +116,9 @@ h3 {
   /* text-align: center; */
   margin: 0 auto;
 }
+
+
+.Home img {
+  border:0.2em solid red;
+  border-radius: 21em;
+}
