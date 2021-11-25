@@ -6,14 +6,17 @@ function Header(props) {
     display: "flex",
     justifyContent: "space-around",
     border: "3px solid black",
+    borderRadius:"2em",
     padding: "8px",
-    width: "90%",
+    width: "69%",
     margin: "auto",
+  
     
   };
 
   return (
     <header>
+      <div class="Header">
       <h1>My Portfolio Page</h1>
       <nav style={navStyle}>
         <Link to="/">
@@ -26,6 +29,7 @@ function Header(props) {
           <div>PROJECTS</div>
         </Link>
       </nav>
+      </div>
     </header>
   );
 }

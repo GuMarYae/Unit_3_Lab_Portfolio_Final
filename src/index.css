@@ -1,70 +1,118 @@
+:root {
+  --primary-color: red;
+  --secondary-color: pruple;
+  --outline-color: gold;
+}
+
+/* * {
+  margin:0;
+  padding:0;
+  outline: 2px solid var(--outline-color);
+} */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  width: 80%;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   background-image: url("https://scitechdaily.com/images/Universe-Energy-Concept.gif");  
-   color:orange;
-   background-repeat: no-repeat;
-   background-size: 107%;
-  
-  }
-
+  /* background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/blue-abstract_1K7APBPQKU.jpg");   */
+  background-color: midnightblue;
+  color: yellow;
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
+.Header div {
+  color: white;
+  padding: 0 auto;
+  margin: 0 auto;
+}
 
 .Footer {
-  display:inline-flex;
-  margin:33.3% 0 0 0;
-  
-  
+  /* display:inline-flex; */
 
-  
+  /* padding-right:70%; */
+  /* margin:15% 0 0 0; */
+  height: 100%;
+  width: 20%;
+}
+.Footer {
+  width: 10%;
+  color: black; 
+/* 🔥🔥🔥🔥🔥🔥🔥fiiiiire 🔥🔥🔥🔥🔥🔥🔥🔥 */
+  position: absolute;
+  top:34%;
+/* 🔥🔥🔥🔥🔥🔥🔥fiiiiire 🔥🔥🔥🔥🔥🔥🔥🔥 */
 }
 
 
 .Footer ul h3 {
-  border: 0.1em dashed orange;
-  border-radius: 1.7em;
+  display: inline-block;
+
+  border: 0.1em solid orange;
+  border-radius: 0.3em;
   text-decoration: none;
   list-style: none;
-  
-  
+  color: white;
+
   /* padding:100px 100px; */
 }
 
 li {
-  border: 0.1em dashed orange;
-  border-radius: 1.7em;
+  display: inline-block;
+  text-align: center;
+  justify-content: space-around;
+  border: 0.01em solid lightgray;
+  border-radius: 0.2em;
   text-decoration: none;
   list-style: none;
-  display:inline-flex;
-  color:orange;
-  
+  color: darkgoldenrod;
+  width: 100%;
+  margin-top:10px;
 
   /* padding:100px 100px; */
 }
 
 li a {
   border: 0.05em solid green;
-  font-size:1.4em;
+  font-size: 1.4em;
   border-radius: 1.1em;
   text-decoration: none;
   list-style: none;
-  display:inline-flex;
-  color:white;
-  
+  display: inline-flex;
+  color: white;
 
   /* padding:100px 100px; */
 }
 
-h3{
-  color:white;
+h3 {
+  color: white;
+}
+
+.Projects {
+  margin:11% auto;
+  width: 55%;
+  display:block;
+  
+}
+.Projects img {
+  /* height:50%; */
+ 
+  margin: 0 auto;
+  width: 74%;
+  border: 0.02em solid red;
+  border-radius: 17em;
+}
+
+.siteLinks {
+  /* text-align: center; */
+  margin: 0 auto;
 }

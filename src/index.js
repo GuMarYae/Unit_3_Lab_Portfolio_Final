@@ -6,6 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 // import router
 import { BrowserRouter as Router } from "react-router-dom";
 
+
+
+
+
+
+
 // wrap our application inside of router to enable using router
 ReactDOM.render(
   <Router>
