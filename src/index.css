@@ -119,6 +119,10 @@ h3 {
 
 
 .Home img {
-  border:0.2em solid red;
+  width:34%;
+  height:34%;
+  border:0.2em solid gray;
   border-radius: 21em;
+  opacity:.9;
+  box-shadow: 7px 7px 7px darkgray;
 }
