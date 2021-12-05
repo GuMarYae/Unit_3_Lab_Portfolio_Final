@@ -2,13 +2,17 @@ function Footer(props) {
   return (
     <div class="Footer">
       <ul>
+        <div class="resumeLink">
+          <a
+            href="https://www.linkedin.com/in/tony-daniels-8b6058165/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACdXIAoBT11krJRGXVd4-pnI1cCsfBchXoY,1635476287462)/">
+            Resume
+          </a>
+        </div>
         <h3>Email</h3>
         <li>tddanielsjr @gmail.com</li>
       </ul>
-      <ul>
-        <h3>Number</h3>
-        <li>413-693-8004</li>
-      </ul>
+
+      <ul></ul>
       <ul>
         <h3>Degree(s)/ certificates</h3>
         <li>General Assembly software development /engineering</li>

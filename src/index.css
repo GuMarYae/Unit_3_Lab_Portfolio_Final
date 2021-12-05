@@ -19,8 +19,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/blue-abstract_1K7APBPQKU.jpg");   */
-  background-color: midnightblue;
-  color: yellow;
+  background-color: #473198;
+  color: black;
   /* background-repeat: no-repeat; */
   background-size: 100%;
 }
@@ -31,7 +31,7 @@ code {
 }
 
 .Header div {
-  color: white;
+  color: #aea4bf;
   padding: 0 auto;
   margin: 0 auto;
 }
@@ -69,11 +69,11 @@ li {
   display: inline-block;
   text-align: center;
   justify-content: space-around;
-  border: 0.01em solid lightgray;
+  border: 0.01em solid black;
   border-radius: 0.2em;
   text-decoration: none;
   list-style: none;
-  color: darkgoldenrod;
+  color: #aea4bf;
   width: 100%;
   margin-top: 10px;
 
@@ -123,4 +123,14 @@ h3 {
   border-radius: 12em;
   opacity: 0.9;
   box-shadow: 7px 7px 7px darkgray;
+}
+
+.resumeLink a {
+  color:gold;
+  font-size:1.5em;
+  font-weight: bolder;
+  text-decoration: none;
+  border:0.07em solid lightgray;
+  padding:0.1em;
+  border-radius: 0.5em; 
 }
